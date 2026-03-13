@@ -1,4 +1,4 @@
-# 🚀 Hermes Strategic Startup Architect Skill
+# Hermes Strategic Startup Architect Skill
 
 This repository contains the permanent **Startup Architect Skill** for Hermes Agent. This skill allows Hermes to transform a simple idea into a data-backed 0-to-1 startup kit in minutes.
 
