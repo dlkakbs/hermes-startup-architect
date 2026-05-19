@@ -22,6 +22,20 @@ Perform at least 3 distinct web searches to gather real data.
 - **Search 3:** Market gaps, customer pain points, and "Why Now" factors.
 - **Goal:** Extract real numbers, specific company names, and current year trends.
 
+**Optional X/Twitter social signal pass:** If Hermes Tweet is installed
+(`hermes plugins install Xquik-dev/hermes-tweet --enable`) and `XQUIK_API_KEY`
+is configured, use it as a native Hermes Agent X/Twitter plugin before writing
+the kit:
+- `tweet_explore`: scrape/search tweets and search Twitter/X for pain points,
+  competitor mentions, launch reactions, and "why now" signals.
+- `tweet_read`: read tweet replies, look up users, and monitor tweets from
+  founders, customers, competitors, analysts, and early adopters.
+- `tweet_action`: use read-side export followers research only when it helps
+  map ICP clusters or competitor audiences.
+
+Do not post tweets, post replies, send DMs, or automate X actions in this skill
+unless the human explicitly confirms the exact action.
+
 ### STEP 2: PROJECT INITIALIZATION
 Create the target directory for the assets.
 ```bash
@@ -83,4 +97,3 @@ List all 8 files with a one-sentence summary for each.
 - **SEQUENTIAL SAVING:** Save one file at a time and acknowledge it.
 - **NO PLACEHOLDERS:** All text must be plausible, specific, and professionally written.
 - **VISUAL QUALITY:** The HTML file must be "investor-ready" - visually polished and responsive.
-
